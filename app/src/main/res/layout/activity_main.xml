@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/component_1_hdpi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:text="@string/log_f1msg"
+                        android:textAlignment="center"
+                        android:textColor="@color/red"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/log_f2msg"
+                        android:textAlignment="center"
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtformal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:shadowColor="#F64E60"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="#F64E60"
+                        android:textColorHighlight="#F64E60"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editTextfullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/inputstyle"
+                        android:ems="10"
+                        android:hint="@string/log_username"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:textColor="@color/gray"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="0dp"
+                        android:shadowColor="#F64E60"
+                        android:textColor="#F64E60"
+                        android:textColorHighlight="#F64E60"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/editTextPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/inputstyle"
+                        android:ems="10"
+                        android:hint="**************"
+                        android:inputType="textPassword"
+                        android:padding="8dp"
+                        android:textColor="@color/gray"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtpwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="0dp"
+                        android:shadowColor="#F64E60"
+                        android:textColor="#F64E60"
+                        android:textColorHighlight="#F64E60"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="373dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:text="@string/log_pwd"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/red"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatButton
+
+                        android:id="@+id/btnt"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btnstyle"
+                        android:padding="8dp"
+                        android:text="@string/log_cnx"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+
+                        android:id="@+id/btnSignUp"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/btnstyle_inscrire"
+                        android:padding="8dp"
+                        android:text="@string/inscrire"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ESB_2025</string>
+    <string name="log_f1msg">Bienvenue sur Esprit</string>
+    <string name="log_f2msg">Connecter vous à votre compte</string>
+    <string name="log_username">Nom d\'utilisateur</string>
+    <string name="log_pwd">Mot de passe oublié?</string>
+    <string name="log_cnx">Se connecter</string>
+    <string name="inscrire">S\'inscrire</string>
+    <string name="dash_logout">Se déconnecter</string>
+    <string name="log_err_requise">Ce champ est requis</string>
+    <string name="log_err_email">\@ manquant</string>
+    <string name="log_err_cnx">Nom d\'utilisateur ou mot de passe incorrect</string>
+    <string name="signup_username">Username</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_button">Créer un compte</string>
+    <string name="signup_pwd">Mot de passe</string>
+    <string name="signup_title">Sign up</string>
+    <string name="signup_exist">l\'utilisateur existe déjà</string>
+    <string name="signup_login">J\'ai déja un compte</string>
+    <string name="dash_welcome_back">Welcome back</string>
+
+
+
+</resources>
